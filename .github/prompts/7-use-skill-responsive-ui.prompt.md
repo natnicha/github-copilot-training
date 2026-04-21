@@ -1,0 +1,1 @@
+use skill to improve responsive UI for every page. I want to make sure the page looks good on mobile devices as well as desktop.

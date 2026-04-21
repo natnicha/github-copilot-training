@@ -1,0 +1,11 @@
+// {
+// 	"hooks": {
+// 		"PreToolUse": [
+// 			{
+// 				"type": "command",
+// 				"command": "bash .github/hooks/validate-db.sh",
+// 				"windows": "powershell -ExecutionPolicy Bypass -NoProfile -File .github/hooks/validate-db.ps1"
+// 			}
+// 		]
+// 	}
+// }

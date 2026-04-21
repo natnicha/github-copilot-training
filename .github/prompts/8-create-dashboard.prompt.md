@@ -1,0 +1,1 @@
+use skill to create new order-dashboard page to monitor the amount of the order that confirmed or cancelled with amount of every products combined.
