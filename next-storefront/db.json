@@ -1,0 +1,116 @@
+{
+  "products": [
+    {
+      "id": "prd-001",
+      "name": "Aurora Headphones",
+      "priceCents": 12999,
+      "imageUrl": "https://images.unsplash.com/photo-1518441902117-f0a3c9f0b6d8?w=400",
+      "category": "Electronics"
+    },
+    {
+      "id": "prd-002",
+      "name": "Nimbus Lamp",
+      "priceCents": 5999,
+      "imageUrl": "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?w=400",
+      "category": "Home"
+    },
+    {
+      "id": "prd-003",
+      "name": "Everyday Jacket",
+      "priceCents": 8999,
+      "imageUrl": "https://images.unsplash.com/photo-1523398002811-999ca8dec234?w=400",
+      "category": "Apparel"
+    },
+    {
+      "id": "prd-004",
+      "name": "Pocket Speaker",
+      "priceCents": 3999,
+      "imageUrl": "https://images.unsplash.com/photo-1545454675-3531b543be5d?w=400",
+      "category": "Electronics"
+    },
+    {
+      "id": "prd-005",
+      "name": "Garmin 165 forerunner",
+      "imageUrl": "/file.svg",
+      "category": "Sport",
+      "priceCents": 199
+    }
+  ],
+  "categories": [
+    "Electronics",
+    "Home",
+    "Apparel",
+    "Sport"
+  ],
+  "orders": [
+    {
+      "id": "ORD-003",
+      "createdAt": "2026-04-21T04:26:29.932Z",
+      "totalCents": 27997,
+      "items": [
+        {
+          "productId": "prd-001",
+          "quantity": 1,
+          "priceCents": 12999
+        },
+        {
+          "productId": "prd-002",
+          "quantity": 1,
+          "priceCents": 5999
+        },
+        {
+          "productId": "prd-003",
+          "quantity": 1,
+          "priceCents": 8999
+        }
+      ],
+      "status": "confirmed"
+    },
+    {
+      "id": "ORD-002",
+      "createdAt": "2026-04-21T04:23:17.642Z",
+      "totalCents": 27997,
+      "items": [
+        {
+          "productId": "prd-001",
+          "quantity": 1,
+          "priceCents": 12999
+        },
+        {
+          "productId": "prd-002",
+          "quantity": 1,
+          "priceCents": 5999
+        },
+        {
+          "productId": "prd-003",
+          "quantity": 1,
+          "priceCents": 8999
+        }
+      ],
+      "status": "confirmed"
+    },
+    {
+      "id": "ORD-001",
+      "createdAt": "2026-04-21T04:08:25.010Z",
+      "totalCents": 13197,
+      "items": [
+        {
+          "productId": "prd-003",
+          "quantity": 1,
+          "priceCents": 8999
+        },
+        {
+          "productId": "prd-004",
+          "quantity": 1,
+          "priceCents": 3999
+        },
+        {
+          "productId": "prd-005",
+          "quantity": 1,
+          "priceCents": 199
+        }
+      ],
+      "status": "confirmed"
+    }
+  ]
+}
