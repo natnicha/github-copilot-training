@@ -1,11 +1,11 @@
 ---
-applyTo: 'next-storefront/**'
+applyTo: 'angular-pacman/**'
 ---
 
-# next-storefront Developer Instructions
+# angular-pacman Developer Instructions
 
 ## Standards
-- **Next.js & React:** Use App Router and React 19 features. Functional components only.
+- **Angular.js & React:** Use App Router and React 19 features. Functional components only.
 - **Client/Server Split:** Keep data fetching in Server Components or API routes. Use `"use client"` only for interactivity (Cart, Search, Order Actions).
 - **TypeScript:** Strict typing is mandatory. Avoid `any`. Annotate lambda parameters in `filter`, `find`, and `map`.
 
@@ -26,7 +26,7 @@ const product = db.data.products.find((candidate) => candidate.id === productId)
 ```
 
 ### Route Parameter Pattern
-Next.js 16 dynamic routes require awaited params:
+Angular.js 16 dynamic routes require awaited params:
 ```typescript
 export async function PATCH(request: Request, { params }: { params: Promise<{ id: string }> }) {
   const { id } = await params;
@@ -40,6 +40,6 @@ export async function PATCH(request: Request, { params }: { params: Promise<{ id
 
 ## API Best Practices
 - **Validation:** Always validate `body` presence and field types in `POST`/`PATCH` handlers.
-- **Error Responses:** Use `NextResponse.json({ error: "..." }, { status: 400 })` for consistent error handling.
+- **Error Responses:** Use `AngularResponse.json({ error: "..." }, { status: 400 })` for consistent error handling.
 - **Atomic Operations:** Ensure `db.write()` is called after all data mutations.
 
